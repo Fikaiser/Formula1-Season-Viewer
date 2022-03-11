@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "370050983229",
+    "project_id": "formulaone-71afb",
+    "storage_bucket": "formulaone-71afb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370050983229:android:8cd1b0b33de989ea0d5154",
+        "android_client_info": {
+          "package_name": "hr.fika.formulaone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370050983229-ld4jpunoh21m843grkod7e99av1fadjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeAptazGF9G7FqtPKFBVjO2lj4oH1tuX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370050983229-ld4jpunoh21m843grkod7e99av1fadjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

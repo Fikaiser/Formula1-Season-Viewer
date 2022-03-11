@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Formula One</string>
+    <string name="splashTitle">Formula One World Championship</string>
+    <string name="splashLoading">Loading</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="made_by">Made by Borna Fikajz</string>
+    <string name="season">Season</string>
+    <string name="round">Round</string>
+    <string name="circuit">Circuit</string>
+    <string name="location">Location</string>
+    <string name="top_3">Top 3:</string>
+</resources>

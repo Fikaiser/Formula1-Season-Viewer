@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/details_padding">
+
+        <ImageView
+            android:id="@+id/ivTrack"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            tools:src="@drawable/track"/>
+
+        <TextView
+            android:id="@+id/tvRaceNameDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            tools:text="Mexico Grand Prix 2021"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                tools:text="16-05-2021"
+                android:textSize="@dimen/details_text_size"/>
+
+            <ImageView
+                android:id="@+id/ivWatched"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                tools:src="@drawable/hidden"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/details_text_width"
+                android:layout_height="match_parent"
+                android:text="@string/season"
+                android:textSize="@dimen/details_text_size"
+                />
+            <TextView
+                android:id="@+id/tvSeason"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:text="2021"
+                android:layout_marginLeft="5dp"
+                android:textSize="@dimen/details_text_size"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/details_text_width"
+                android:layout_height="match_parent"
+                android:text="@string/round"
+                android:textSize="@dimen/details_text_size"
+                />
+            <TextView
+                android:id="@+id/tvRoundDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:text="1"
+                android:textSize="@dimen/details_text_size"
+                android:layout_marginLeft="5dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/details_text_width"
+                android:layout_height="match_parent"
+                android:text="@string/circuit"
+                android:textSize="@dimen/details_text_size"
+                />
+            <TextView
+                android:id="@+id/tvCircuit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:text="Arena de Jose del Pedro"
+                android:layout_marginLeft="5dp"
+                android:textSize="@dimen/details_text_size"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/details_text_width"
+                android:layout_height="match_parent"
+                android:text="@string/location"
+                android:textSize="@dimen/details_text_size"
+                />
+            <TextView
+                android:id="@+id/tvLocality"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:text="Ciduad de Mexico"
+                android:layout_marginLeft="5dp"
+                android:textSize="@dimen/details_text_size"
+                />
+            <TextView
+                android:id="@+id/tvCountry"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:text=", Mexico"
+                android:textSize="@dimen/details_text_size"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/top_3"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/driver_display_height"
+            android:orientation="horizontal"
+            android:background="@android:color/darker_gray">
+
+            <ImageView
+                android:layout_width="@dimen/driver_image_width"
+                android:layout_height="match_parent"
+                android:src="@drawable/gold"/>
+            <TextView
+                android:id="@+id/tvWinnerName"
+                android:layout_width="@dimen/driver_name_width"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/driver_margin"
+                android:gravity="center"
+                android:textSize="@dimen/driver_size"
+                tools:text="Max Verstappen"/>
+            <TextView
+                android:id="@+id/tvWinnerTime"
+                android:layout_width="@dimen/result_time_width"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/driver_margin"
+                android:gravity="center"
+                android:textSize="@dimen/time_size"
+                android:textStyle="bold"
+                tools:text="1:32:03.897"/>
+            <ImageView
+                android:id="@+id/ivWinnerImage"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                tools:src="@drawable/helmet"
+                android:layout_marginLeft="@dimen/driver_margin"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/driver_display_height"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/driver_margin"
+            android:background="@android:color/darker_gray">
+
+            <ImageView
+                android:layout_width="@dimen/driver_image_width"
+                android:layout_height="match_parent"
+                android:src="@drawable/silver"/>
+            <TextView
+                android:id="@+id/tvSecondName"
+                android:layout_width="@dimen/driver_name_width"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/driver_margin"
+                android:gravity="center"
+                android:textSize="@dimen/driver_size"
+                tools:text="Lewis Hamilton"/>
+            <TextView
+                android:id="@+id/tvSecondTime"
+                android:layout_width="@dimen/result_time_width"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/driver_margin"
+                android:gravity="center"
+                android:textSize="@dimen/time_size"
+                android:textStyle="bold"
+                tools:text="49:35:19"/>
+
+            <ImageView
+                android:id="@+id/ivSecondImage"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                tools:src="@drawable/helmet"
+                android:layout_marginLeft="@dimen/driver_margin"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/driver_display_height"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/driver_margin"
+            android:background="@android:color/darker_gray">
+
+            <ImageView
+                android:layout_width="@dimen/driver_image_width"
+                android:layout_height="match_parent"
+                android:src="@drawable/bronze"/>
+            <TextView
+                android:id="@+id/tvThirdName"
+                android:layout_width="@dimen/driver_name_width"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/driver_margin"
+                android:gravity="center"
+                android:textSize="@dimen/driver_size"
+                tools:text="Valtteri Bottas"/>
+            <TextView
+                android:id="@+id/tvThirdTime"
+                android:layout_width="@dimen/result_time_width"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/driver_margin"
+                android:gravity="center"
+                android:textSize="@dimen/time_size"
+                android:textStyle="bold"
+                tools:text="49:35:19"/>
+            <ImageView
+                android:id="@+id/ivThirdImage"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                tools:src="@drawable/helmet"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

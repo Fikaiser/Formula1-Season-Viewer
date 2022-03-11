@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splashPadding">50dp</dimen>
+    <dimen name="nvWidth">162dp</dimen>
+    <dimen name="nvHeight">240dp</dimen>
+    <dimen name="details_text_size">17sp</dimen>
+    <dimen name="details_text_width">70dp</dimen>
+    <dimen name="result_time_width">80dp</dimen>
+    <dimen name="splash_title_size">30sp</dimen>
+    <dimen name="splash_image_height">350dp</dimen>
+    <dimen name="loading_size">25sp</dimen>
+    <dimen name="splash_layout_height">80dp</dimen>
+    <dimen name="about_padding">20dp</dimen>
+    <dimen name="about_size">40sp</dimen>
+    <dimen name="item_padding">10dp</dimen>
+    <dimen name="item_height">80dp</dimen>
+    <dimen name="item_size">35sp</dimen>
+    <dimen name="item_title_size">23sp</dimen>
+    <dimen name="item_width">80dp</dimen>
+    <dimen name="details_padding">10dp</dimen>
+    <dimen name="driver_display_height">100dp</dimen>
+    <dimen name="driver_image_width">60dp</dimen>
+    <dimen name="driver_name_width">150dp</dimen>
+    <dimen name="driver_margin">10dp</dimen>
+    <dimen name="driver_size">18sp</dimen>
+    <dimen name="time_size">15sp</dimen>
+    <dimen name="tyre_width">270dp</dimen>
+</resources>
